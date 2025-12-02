@@ -1,7 +1,7 @@
 import sys
 
-sys.stdin = open('day1.input', 'r')
-# sys.stdin = open('day1_sample.input', 'r')
+sys.stdin = open('input.in', 'r')
+# sys.stdin = open('example.in', 'r')
 
 def click(start: int, direction: str):
     if direction == 'R':
